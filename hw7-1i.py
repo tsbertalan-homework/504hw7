@@ -1,3 +1,6 @@
+
+# code online at https://github.com/tsbertalan-homework/504hw7
+
 import numpy as np
 sqrt = np.sqrt
 import matplotlib.pyplot as plt

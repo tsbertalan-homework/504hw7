@@ -1,3 +1,5 @@
+% code online at https://github.com/tsbertalan-homework/504hw7
+
 beta = 0.1;
 initialSlope = -.5;
 x0 = [initialSlope 1];

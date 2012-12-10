@@ -55,7 +55,9 @@ span.syscmd { color:#B28C00 }
 .footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
 .footer p { margin:0px; }
 
-  </style></head><body><div class="content"><pre class="codeinput"><span class="keyword">function</span> ode=evalfcn(t, Y, phi)
+  </style></head><body><div class="content"><pre class="codeinput"><span class="comment">% code online at https://github.com/tsbertalan-homework/504hw7</span>
+
+<span class="keyword">function</span> ode=evalfcn(t, Y, phi)
     m = Y(1);
     u = Y(2);
     b = .1;
@@ -66,6 +68,8 @@ span.syscmd { color:#B28C00 }
 </pre><p class="footer"><br>
       Published with MATLAB&reg; 7.14<br></p></div><!--
 ##### SOURCE BEGIN #####
+% code online at https://github.com/tsbertalan-homework/504hw7
+
 function ode=evalfcn(t, Y, phi)
     m = Y(1);
     u = Y(2);

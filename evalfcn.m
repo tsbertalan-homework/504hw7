@@ -1,3 +1,5 @@
+% code online at https://github.com/tsbertalan-homework/504hw7
+
 function ode=evalfcn(t, Y, phi)
     m = Y(1);
     u = Y(2);
